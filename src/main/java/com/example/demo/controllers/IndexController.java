@@ -8,13 +8,13 @@ import java.util.Map;
 public class IndexController
 {
     @GetMapping("/api")
-    public String get(@RequestParam(value = "input") String input)
+    public String get(@RequestParam(value = "input") String input, @RequestHeader Map<String, String> headers)
     {
         return "GET REQUEST with input: " + input;
     }
 
     @PostMapping("/api")
-    public String post(@RequestBody Map<String, String> request)
+    public String post(@RequestBody Map<String, String> request, @RequestHeader Map<String, String> headers)
     {
         for(String key: request.keySet())
         {
