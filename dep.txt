@@ -1,0 +1,6 @@
+The following dependencies in Dependencies have newer versions:
+  org.springframework.boot:spring-boot-starter-web ...... 4.0.3 -> 4.0.6
+
+The following dependencies in pluginManagement of plugins have newer versions:
+  org.springframework.boot:spring-boot-maven-plugin ..... 4.0.3 -> 4.0.6
+
